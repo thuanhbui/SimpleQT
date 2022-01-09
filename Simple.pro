@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
+        struct.cpp \
         test.cpp
 
 # Default rules for deployment.

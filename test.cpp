@@ -33,6 +33,7 @@ int testPointer() {
 
 int testPointer2() {
     int *ptr4=NULL;
+
     if(ptr4 == 0)
         printf("ptr3: NULL\n");
     else
