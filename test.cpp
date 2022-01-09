@@ -40,3 +40,9 @@ int testPointer2() {
         printf("ptr3: NOT NULL\n");
     return 3;
 }
+
+int huhu() {
+    int* i = 0;
+        int x = (*i);
+        return x;
+}
