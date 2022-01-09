@@ -46,3 +46,9 @@ int huhu() {
         int x = (*i);
         return x;
 }
+
+int anhlam() {
+    int* p = NULL;
+    *p = 10;
+    return 1;
+}
