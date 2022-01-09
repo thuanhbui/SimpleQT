@@ -11,7 +11,7 @@ int testPointer() {
 
         int *ptr1 = &num;
         int *ptr2;
-        int *ptr3=0;
+        int *ptr3=NULL;
 
         if(ptr1 == 0)
             printf("ptr1: NULL\n");
@@ -32,7 +32,7 @@ int testPointer() {
 }
 
 int testPointer2() {
-    int *ptr4=0;
+    int *ptr4=NULL;
     if(ptr4 == 0)
         printf("ptr3: NULL\n");
     else
